@@ -20,6 +20,17 @@ namespace MethodsExercise
             var band = Console.ReadLine();
 
             Console.WriteLine("That's great! Thank you for taking time to fill out our form!");
+            
+            Console.WriteLine($"{userName}, here is your profile:");
+            Console.WriteLine($"---------------------------------------------------");
+
+
+
+            Console.WriteLine($"Name: {userName}");
+            Console.WriteLine($"Color: {color}");
+            Console.WriteLine($"Animal: {animal}");
+            Console.WriteLine($"Band: {band}");
+
         }
     }
 }
